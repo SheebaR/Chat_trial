@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\ADMIN\\Downloads\\quickblox-android-sdk-master\\sample-users\\build\\intermediates\\incremental\\mergeDevDebugResources\\stripped.dir\\layout\\activity_show_user.xml",
+        "source": "C:\\Users\\ADMIN\\Downloads\\quickblox-android-sdk-master\\sample-users\\src\\main\\res\\layout\\activity_show_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\Downloads\\quickblox-android-sdk-master\\sample-users\\build\\intermediates\\incremental\\mergeDevDebugResources\\stripped.dir\\layout\\list_item_user.xml",
+        "source": "C:\\Users\\ADMIN\\Downloads\\quickblox-android-sdk-master\\sample-users\\src\\main\\res\\layout\\list_item_user.xml"
+    }
+]

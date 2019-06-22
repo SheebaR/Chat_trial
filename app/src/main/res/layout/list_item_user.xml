@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.quickblox.users.model.QBUser" />
+    </data>
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/MatchParent">
+
+        <ImageView
+            android:id="@+id/user_avatar2_imageview"
+            style="@style/WrapContent"
+            android:layout_marginTop="5dp"
+            android:padding="16dp"
+                        tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/user_avatar_imageview"
+            style="@style/WrapContent"
+            android:adjustViewBounds="true"
+            android:paddingLeft="23dp"
+            android:paddingTop="26dp"
+
+            tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry" />
+
+        <LinearLayout
+            style="@style/WrapContent"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+
+            <TextView
+                android:id="@+id/full_name_text_item_view"
+                style="@style/WrapContent"
+                android:layout_marginTop="5dp"
+                android:hint="Full_name"
+                android:singleLine="true"
+                android:text="@{user.fullName}"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
